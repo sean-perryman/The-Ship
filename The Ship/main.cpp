@@ -10,6 +10,8 @@
 #include "Library.h"
 using namespace std;
 
+string gameResult;
+
 int main(int argc, const char * argv[])
 {
     cout << "The Ship\n";
@@ -21,7 +23,10 @@ int main(int argc, const char * argv[])
     cout << "You head out into the hallway and notice it still seems quiet. Looking out a nearby port hole\n";
     cout << "it seems the ship isn't moving. You head off to the mess hall to see what's going on.\n\n";
     
-    MessHall();
+    gameResult = MessHall();
+    
+    /* Depending on what result comes back through the gameResult variable, display a different game
+     over message for the player */
     
     cout << "Thank you for playing! Please play again soon.\n\n";
     

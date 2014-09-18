@@ -12,7 +12,7 @@
 #include <iostream>
 using namespace std;
 
-bool MessHall();
+string MessHall();
 bool ExamineTheFood();
 
 #endif /* defined(__The_Ship__MessHall__) */

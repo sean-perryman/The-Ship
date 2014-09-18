@@ -14,7 +14,7 @@ char mh_choice;
 bool continueGame;
 bool leaveExamine;
 
-bool MessHall() {
+string MessHall() {
     cout << "You are by yourself. There is some food on the tables, but no one to eat it.\n";
     cout << "From here you can access the bridge, the cargo bay, the medical suite, or the crew quarters.\n";
 
@@ -66,7 +66,7 @@ bool MessHall() {
         
     }
     
-    return true;
+    return "jump";
 }
 
 bool ExamineTheFood() {
