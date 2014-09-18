@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3F87DAB519CB35E000A267BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DAB419CB35E000A267BE /* main.cpp */; };
 		3F87DAB719CB35E000A267BE /* The_Ship.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F87DAB619CB35E000A267BE /* The_Ship.1 */; };
+		3F87DAC019CB37AC00A267BE /* MessHall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DABE19CB37AC00A267BE /* MessHall.cpp */; };
+		3F87DAC419CB396C00A267BE /* CrewQuarters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DAC219CB396C00A267BE /* CrewQuarters.cpp */; };
+		3F87DAC719CB398400A267BE /* MedicalSuite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DAC519CB398400A267BE /* MedicalSuite.cpp */; };
+		3F87DACD19CB462700A267BE /* Globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DACB19CB462700A267BE /* Globals.cpp */; };
+		3F87DAD019CB4C5C00A267BE /* Bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DACE19CB4C5C00A267BE /* Bridge.cpp */; };
+		3F87DAD319CB4C7C00A267BE /* CargoBay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DAD119CB4C7C00A267BE /* CargoBay.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +34,19 @@
 		3F87DAB119CB35E000A267BE /* The Ship */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "The Ship"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F87DAB419CB35E000A267BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3F87DAB619CB35E000A267BE /* The_Ship.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = The_Ship.1; sourceTree = "<group>"; };
+		3F87DABD19CB36BB00A267BE /* Library.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Library.h; sourceTree = "<group>"; };
+		3F87DABE19CB37AC00A267BE /* MessHall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MessHall.cpp; sourceTree = "<group>"; };
+		3F87DABF19CB37AC00A267BE /* MessHall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessHall.h; sourceTree = "<group>"; };
+		3F87DAC219CB396C00A267BE /* CrewQuarters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrewQuarters.cpp; sourceTree = "<group>"; };
+		3F87DAC319CB396C00A267BE /* CrewQuarters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrewQuarters.h; sourceTree = "<group>"; };
+		3F87DAC519CB398400A267BE /* MedicalSuite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MedicalSuite.cpp; sourceTree = "<group>"; };
+		3F87DAC619CB398400A267BE /* MedicalSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalSuite.h; sourceTree = "<group>"; };
+		3F87DACB19CB462700A267BE /* Globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Globals.cpp; sourceTree = "<group>"; };
+		3F87DACC19CB462700A267BE /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		3F87DACE19CB4C5C00A267BE /* Bridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bridge.cpp; sourceTree = "<group>"; };
+		3F87DACF19CB4C5C00A267BE /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		3F87DAD119CB4C7C00A267BE /* CargoBay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CargoBay.cpp; sourceTree = "<group>"; };
+		3F87DAD219CB4C7C00A267BE /* CargoBay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CargoBay.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +80,30 @@
 			isa = PBXGroup;
 			children = (
 				3F87DAB419CB35E000A267BE /* main.cpp */,
+				3F87DACB19CB462700A267BE /* Globals.cpp */,
+				3F87DACC19CB462700A267BE /* Globals.h */,
 				3F87DAB619CB35E000A267BE /* The_Ship.1 */,
+				3F87DAC119CB394A00A267BE /* Locations */,
+				3F87DABD19CB36BB00A267BE /* Library.h */,
 			);
 			path = "The Ship";
+			sourceTree = "<group>";
+		};
+		3F87DAC119CB394A00A267BE /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				3F87DABE19CB37AC00A267BE /* MessHall.cpp */,
+				3F87DABF19CB37AC00A267BE /* MessHall.h */,
+				3F87DAC219CB396C00A267BE /* CrewQuarters.cpp */,
+				3F87DAC319CB396C00A267BE /* CrewQuarters.h */,
+				3F87DAC519CB398400A267BE /* MedicalSuite.cpp */,
+				3F87DAC619CB398400A267BE /* MedicalSuite.h */,
+				3F87DACE19CB4C5C00A267BE /* Bridge.cpp */,
+				3F87DACF19CB4C5C00A267BE /* Bridge.h */,
+				3F87DAD119CB4C7C00A267BE /* CargoBay.cpp */,
+				3F87DAD219CB4C7C00A267BE /* CargoBay.h */,
+			);
+			name = Locations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F87DAD319CB4C7C00A267BE /* CargoBay.cpp in Sources */,
+				3F87DACD19CB462700A267BE /* Globals.cpp in Sources */,
+				3F87DAC419CB396C00A267BE /* CrewQuarters.cpp in Sources */,
+				3F87DAC019CB37AC00A267BE /* MessHall.cpp in Sources */,
+				3F87DAC719CB398400A267BE /* MedicalSuite.cpp in Sources */,
+				3F87DAD019CB4C5C00A267BE /* Bridge.cpp in Sources */,
 				3F87DAB519CB35E000A267BE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
