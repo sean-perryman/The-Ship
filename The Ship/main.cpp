@@ -18,7 +18,9 @@ int main(int argc, const char * argv[])
     cout << "Programmed by Sean Perryman\n\n";
     cout << "You are a crew member on a deep space vessel. You awake to a loud noise.\n";
     cout << "You lay in bed and listen, but there is nothing. No alarms, people screaming, nothing.\n";
-    cout << "You decide to go back to bed.\n\n";
+    cout << "You decide to go back to bed.\n";
+    cout << "press the Enter key to continue...\n\n";
+    cin.get();
     cout << "You wake at your usual time and go through your morning routing. Shower, get dressed, coffee.\n";
     cout << "You head out into the hallway and notice it still seems quiet. Looking out a nearby port hole\n";
     cout << "it seems the ship isn't moving. You head off to the mess hall to see what's going on.\n\n";
