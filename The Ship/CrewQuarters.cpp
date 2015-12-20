@@ -73,8 +73,8 @@ bool RightRoom()
     if (!rightRoomDone)
     {
         cout << "\nYou cautiously push open the door and peer inside the room.\n";
-        cout << "You are releived to find a fan that has tipped over against the desk\n";
-        cout << "to be the source of the rattling. You walk in and stand it back up. As\n";
+        cout << "You are releived to find a fan has tipped over against the desk\n";
+        cout << "the source of the rattling. You walk in and stand it back up. As\n";
         cout << "you turn to leave, you see ";
     
         /* Here we will do a rand to determine the event that happens. Either an Alien appears and

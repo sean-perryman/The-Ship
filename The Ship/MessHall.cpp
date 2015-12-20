@@ -71,7 +71,7 @@ string MessHall() {
 
 bool ExamineTheFood() {
     cout << "You walk over to one of the tables and look at the food sitting there. Everything seems to be\n";
-    cout << "in order. There is an apple there that you could take with you.\n";
+    cout << "in order. There is an apple that you could take with you.\n";
     
     leaveExamine = false;
     
@@ -79,7 +79,7 @@ bool ExamineTheFood() {
         cout << "\nWhat would you like to do?\n\n";
         
         if (!g_haveApple) {
-            cout << "\n[T]ake an apple\n";
+            cout << "\n[T]ake the apple\n";
         }
         cout << "[R]eturn\n";
         
