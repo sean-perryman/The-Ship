@@ -12,7 +12,10 @@
 #include <iostream>
 using namespace std;
 
-string MessHall();
-bool ExamineTheFood();
+class MessHall { /* Added this in when trying to compile in Windows */
+	public:
+		string MessHall();
+		bool ExamineTheFood();
+};
 
 #endif /* defined(__The_Ship__MessHall__) */
