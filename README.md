@@ -12,3 +12,9 @@ Maybe like 5 minutes if they know what they are doing?
 
 
 This was inspired by the WRATH LANDS tutorial series by Mark Troyer.
+
+---
+- [ ] Figure out cross-platform compilation
+- [ ] Sound effects
+- [ ] Music
+- [ ] Finish story
